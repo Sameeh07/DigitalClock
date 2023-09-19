@@ -10,7 +10,8 @@
             am_pm = "PM";
             } 
             if (hour == 0) {
-            hr = 12; am_pm ="AM";
+            hour = 12;
+            am_pm ="AM";
             }
             hour = hour < 10 ? "0" + hour : hour;
             min = min < 10 ? "0" + min : min; 
